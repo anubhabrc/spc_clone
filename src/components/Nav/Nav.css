@@ -1,0 +1,74 @@
+.navbuttons:hover {
+    background-color: #0E5291;
+}
+
+.button {
+	display: inline-block;
+	margin: 4px 2px;
+	background-color: #0E5291;
+	font-size: 14px;
+	height: 32px;
+  width: 50px;
+	text-align: center;
+	color: white;
+	cursor: pointer;	
+}
+
+
+
+.search-container {
+	position: relative;
+	display: inline-block;
+	margin: 4px 2px;
+	height: 32px;
+	width: 27px;
+	vertical-align: bottom;
+}
+
+.mglass {
+	display: inline-block;
+	-webkit-transform: rotate(-40deg);
+	-moz-transform: rotate(-40deg);
+	-o-transform: rotate(-40deg);
+	-ms-transform: rotate(-40deg);
+  padding-bottom: -5px;
+  padding-top: -10px;
+}
+
+.searchbutton {
+	position: absolute;
+	font-size: 25px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.search:focus + .searchbutton {
+	transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	background-color: white;
+	color: grey;
+}
+
+.search {
+	position: absolute;
+	left: 26px;
+  background-color: #0E5291;
+	outline: none;
+	border: none;
+	padding: 0;
+	width: 180px;
+	height: 100%;
+	transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+}
+
+.search:focus {
+	width: 400px;
+  background-color: #fff;
+	padding: 0 16px 0 0;
+}
